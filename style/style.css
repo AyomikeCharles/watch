@@ -98,7 +98,27 @@ header{
 
 .hero-img{
 	width: 350px;
+	height: 400px;
+	animation: change 2s ease;
 }
+
+.fade{
+}
+@keyframes change{
+	from {opacity: 0.4}
+	to {opacity: 1;}
+}
+
+
+#img2{
+	display: none;
+}
+
+#img3{
+	display: none;
+}
+
+
 
 .first-heading{
 	margin: 15px 0;
@@ -423,6 +443,7 @@ footer div ul a:hover{
 
 	.hero-img{
 		width: 250px;
+		height: 300px;
 	}
 
 	.why-use-us{
